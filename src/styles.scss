@@ -2,6 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer {
+  body {
+    @apply bg-gray-100;
+  }
+}
+
 @layer components {
   .app-container {
     @apply container mx-auto;
