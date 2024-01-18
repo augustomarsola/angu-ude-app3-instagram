@@ -12,4 +12,8 @@
   .app-container {
     @apply container mx-auto;
   }
+
+  .input-default {
+    @apply rounded border border-neutral-500 w-full;
+  }
 }
