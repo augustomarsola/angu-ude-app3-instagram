@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, EventEmitter, Output } from '@angular/core';
 
 @Component({
   selector: 'app-login',
@@ -6,4 +6,10 @@ import { Component } from '@angular/core';
   imports: [],
   templateUrl: './login.component.html',
 })
-export class LoginComponent {}
+export class LoginComponent {
+  @Output() openRegister = new EventEmitter();
+
+  openRegisterClick() {
+    this.openRegister.emit('');
+  }
+}

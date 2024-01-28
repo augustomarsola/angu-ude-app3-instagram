@@ -26,9 +26,11 @@
     class="rounded-sm bg-slate-50 border w-full max-w-96 p-8 flex flex-col items-center">
     <span
       >Tem uma conta?
-      <a href="#" class="text-blue-600 hover:text-blue-800 hover:underline"
-        >Faça login</a
-      ></span
+      <button
+        (click)="openLoginClick()"
+        class="text-blue-600 hover:text-blue-800 hover:underline">
+        Faça login
+      </button></span
     >
   </div>
 </section>

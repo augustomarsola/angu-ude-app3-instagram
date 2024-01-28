@@ -20,9 +20,11 @@
     class="rounded-sm bg-slate-50 border w-full max-w-96 p-8 flex flex-col items-center">
     <span
       >Não tem uma conta?
-      <a href="#" class="text-blue-600 hover:text-blue-800 hover:underline"
-        >Cadastra-se</a
-      ></span
+      <button
+        (click)="openRegisterClick()"
+        class="text-blue-600 hover:text-blue-800 hover:underline">
+        Cadastra-se
+      </button></span
     >
   </div>
 </section>
