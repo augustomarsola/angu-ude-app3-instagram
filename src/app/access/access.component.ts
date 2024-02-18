@@ -31,7 +31,7 @@ import { RegisterComponent } from './register/register.component';
           opacity: 0,
         })
       ),
-      transition('open <=> closed', [animate('1s')]),
+      transition('open <=> closed', [animate('0.5s')]),
     ]),
     trigger('register', [
       state(
@@ -48,7 +48,7 @@ import { RegisterComponent } from './register/register.component';
           opacity: 0,
         })
       ),
-      transition('open <=> closed', [animate('1s')]),
+      transition('open <=> closed', [animate('0.5s')]),
     ]),
   ],
 })
